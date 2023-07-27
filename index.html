@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GHPR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <dialog id="anthonytedja-modal">
+      <h1>GitHub PR Assistant</h1>
+      <form id="anthonytedja-form" method="dialog">
+        <div>
+          <h2>CONFIGURATIONS</h2>
+          <div class="anthonytedja-flex">
+            <h3>View Files Mode</h3>
+            <label id="anthonytedja-switch">
+              <input id="anthonytedja-toggle" type="checkbox" tabindex="1" />
+              <span class="anthonytedja-hover slider"></span>
+            </label>
+          </div>
+          <p>When unchecked, assistant will unview files.</p>
+        </div>
+        <div>
+          <h2>FILEPATH FILTER (Optional)</h2>
+          <input
+            type="text"
+            id="anthonytedja-filter"
+            placeholder="Directory: ex. vendor"
+            tabindex="1"
+          />
+          <p>Filter files by directory to select by.</p>
+        </div>
+        <div class="anthonytedja-flex buttons">
+          <button
+            id="anthonytedja-confirm"
+            class="anthonytedja-hover"
+            type="submit"
+            value="submit"
+            tabindex="0"
+          >
+            Confirm
+          </button>
+          <button
+            id="anthonytedja-close"
+            class="anthonytedja-hover"
+            value="cancel"
+            tabindex="1"
+          >
+            Cancel
+          </button>
+        </div>
+      </form>
+    </dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
