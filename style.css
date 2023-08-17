@@ -1,9 +1,13 @@
+.anthonytedja-reset,
+.anthonytedja-reset * {
+  all: revert;
+}
 #anthonytedja-modal {
   font-family: BlinkMacSystemFont;
   border: none;
   border-radius: 14px;
   background-color: #f2f1f6;
-  padding: 1rem;
+  padding: 16px;
   min-width: 400px;
   color: #000;
 }
@@ -18,8 +22,8 @@
   flex-direction: column;
   justify-content: center;
   background-color: #fff;
-  row-gap: 1.5rem;
-  padding: 0.5rem 1.25rem;
+  row-gap: 24px;
+  padding: 8px 20px;
   border-radius: 12px;
 }
 .anthonytedja-hover {
@@ -39,9 +43,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  column-gap: 1rem;
+  column-gap: 16px;
   width: 100%;
-  margin: 0.25rem 0;
+  margin: 4px 0;
 }
 .anthonytedja-flex.buttons {
   margin: 12px 0;
@@ -52,6 +56,12 @@
   border: 1px solid #007fff;
   border-radius: 34px;
   padding: 8px 24px;
+}
+.anthonytedja-label {
+  margin: 0;
+  font-size: 12px;
+  opacity: 0.4;
+  font-weight: 400;
 }
 #anthonytedja-close {
   color: #007fff;
@@ -65,28 +75,22 @@
   color: #fff;
 }
 #anthonytedja-modal h1 {
-  font-size: 1.5rem;
-  margin: 1rem 0;
+  font-size: 24px;
+  margin: 16px 0;
 }
 #anthonytedja-form h2 {
-  font-size: 0.75rem;
+  font-size: 12px;
   opacity: 0.5;
   font-weight: 400;
-  margin: 0.5rem 0;
+  margin: 8px 0;
 }
 #anthonytedja-form h3 {
-  font-size: 0.9rem;
-  font-weight: 400;
-}
-#anthonytedja-form p {
-  margin: 0;
-  font-size: 0.75rem;
-  opacity: 0.4;
+  font-size: 14px;
   font-weight: 400;
 }
 #anthonytedja-filter {
-  margin: 0.5rem 0;
-  padding: 0.5rem;
+  margin: 8px 0;
+  padding: 8px;
   border-radius: 8px;
   border: 1px solid #e9e9eb;
   box-sizing: border-box;

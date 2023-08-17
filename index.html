@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <dialog id="anthonytedja-modal">
-      <h1>GitHub PR Assistant</h1>
+    <dialog id="anthonytedja-modal" class="anthonytedja-reset">
+      <div class="anthonytedja-flex">
+        <h1>GitHub PR Assistant</h1>
+        <p class="anthonytedja-label">v1.0.0</p>
+      </div>
       <form id="anthonytedja-form" method="dialog">
         <div>
           <h2>CONFIGURATIONS</h2>
@@ -19,7 +22,9 @@
               <span class="anthonytedja-hover slider"></span>
             </label>
           </div>
-          <p>When unchecked, assistant will unview files.</p>
+          <p class="anthonytedja-label">
+            When unchecked, assistant will unview files.
+          </p>
         </div>
         <div>
           <h2>FILEPATH FILTER (Optional)</h2>
@@ -29,7 +34,9 @@
             placeholder="Directory: ex. vendor"
             tabindex="1"
           />
-          <p>Filter files by directory to select by.</p>
+          <p class="anthonytedja-label">
+            Filter files by directory to select by.
+          </p>
         </div>
         <div class="anthonytedja-flex buttons">
           <button
