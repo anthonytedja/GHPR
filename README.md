@@ -1,9 +1,15 @@
 # GHPR
 
-> GHPR is a bookmarklet to assist with pull request reviews.
+> GHPR is a bookmarklet and chrome extension to assist with pull request reviews.
 
-## Setup
+## Chrome Extension Setup
+
+Toggle on developer mode in the extensions settings and click "Load unpacked" to select the `extension` directory.
+
+![Setup](images/extensions.png)
+
+## Bookmarklet Setup
 
 Create a new bookmark in your browser and paste the minified script found in `ghpr.min.js` as the URL.
 
-![Setup](preview.png)
+![Setup](images/preview.png)
